@@ -1,0 +1,161 @@
+.custom-editor .ql-container {
+	height: 200px;
+}
+
+.custom-editor .ql-toolbar {
+	height: 50px;
+}
+.custom-editor .ql-toolbar {
+	height: 50px;
+}
+
+.rich-text-content {
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.rich-text-content h1 {
+	font-size: 2em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.rich-text-content h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.rich-text-content h3 {
+	font-size: 1.17em;
+	font-weight: bold;
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+}
+
+.rich-text-content p {
+	margin-bottom: 1em;
+}
+
+.rich-text-content ul,
+.rich-text-content ol {
+	padding-left: 1.5em;
+	margin-bottom: 1em;
+}
+
+.rich-text-content ul {
+	list-style-type: disc;
+}
+
+.rich-text-content ol {
+	list-style-type: decimal;
+}
+
+.rich-text-content li {
+	margin-bottom: 0.5em;
+}
+
+.rich-text-content a {
+	color: #3b82f6;
+	text-decoration: underline;
+}
+
+.rich-text-content a:hover {
+	text-decoration: none;
+}
+
+.rich-text-content blockquote {
+	border-left: 4px solid #4b5563;
+	padding-left: 1em;
+	margin-left: 0;
+	font-style: italic;
+	color: #9ca3af;
+}
+
+.rich-text-content pre {
+	background-color: #181c14;
+	color: #f2f2f2;
+	padding: 1em;
+	border-radius: 4px;
+	overflow-x: auto;
+	margin-bottom: 1em;
+}
+
+.rich-text-content code {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 0.9em;
+}
+
+.rich-text-content :not(pre) > code {
+	background-color: #374151;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+}
+
+/* Preserve text colors */
+.rich-text-content .ql-color-red {
+	color: #ff6b6b;
+}
+.rich-text-content .ql-color-orange {
+	color: #feca57;
+}
+.rich-text-content .ql-color-yellow {
+	color: #ffd32a;
+}
+.rich-text-content .ql-color-green {
+	color: #32ff7e;
+}
+.rich-text-content .ql-color-blue {
+	color: #18dcff;
+}
+.rich-text-content .ql-color-purple {
+	color: #7d5fff;
+}
+
+/* Preserve background colors */
+.rich-text-content .ql-bg-red {
+	background-color: rgba(255, 107, 107, 0.3);
+}
+.rich-text-content .ql-bg-orange {
+	background-color: rgba(254, 202, 87, 0.3);
+}
+.rich-text-content .ql-bg-yellow {
+	background-color: rgba(255, 211, 42, 0.3);
+}
+.rich-text-content .ql-bg-green {
+	background-color: rgba(50, 255, 126, 0.3);
+}
+.rich-text-content .ql-bg-blue {
+	background-color: rgba(24, 220, 255, 0.3);
+}
+.rich-text-content .ql-bg-purple {
+	background-color: rgba(125, 95, 255, 0.3);
+}
+
+/* Indent styles */
+.rich-text-content .ql-indent-1 {
+	padding-left: 3em;
+}
+.rich-text-content .ql-indent-2 {
+	padding-left: 6em;
+}
+.rich-text-content .ql-indent-3 {
+	padding-left: 9em;
+}
+.rich-text-content .ql-indent-4 {
+	padding-left: 12em;
+}
+.rich-text-content .ql-indent-5 {
+	padding-left: 15em;
+}
+.rich-text-content .ql-indent-6 {
+	padding-left: 18em;
+}
+.rich-text-content .ql-indent-7 {
+	padding-left: 21em;
+}
+.rich-text-content .ql-indent-8 {
+	padding-left: 24em;
+}
