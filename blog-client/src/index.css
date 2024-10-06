@@ -1,0 +1,36 @@
+/* index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--background-color: #ffffff;
+	--border-color: #e5e7eb;
+
+	--header-color: #1f2937;
+	--paragraph-header-color: #1f2937;
+	--paragraph-color: #4a5568;
+	--theme-icon: #1f2937,
+	--link-color: #3182ce;
+	--tag-border: #E5E7EB;
+	--tag-bg: #F3F4F6;
+}
+
+.dark {
+	--background-color: #1a202c;
+	--border-color: #4b5563;
+
+	--header-color: #f7fafc;
+	--paragraph-header-color: #e5e7eb;
+	--paragraph-color: #9ca3af;
+	--theme-icon: #9ca3af;
+	--link-color: #63b3ed;
+	--tag-border: #4B5563;
+	--tag-bg: #1F2937;
+}
+
+body {
+	background-color: var(--background-color);
+	color: var(--text-color);
+	border-color: var(--border-color);
+}
